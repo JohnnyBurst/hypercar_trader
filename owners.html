@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="HyperCar Trader" />
+   	<meta name="keywords" content="hypercar, supercar, agera, LaFerrari, fast car, luxury car, exclusive car, most expensive car, expensive car, exotic car, fastest car, million dollar car" />
+    <meta name="author" content="www.hypercartrader.com" />
+	<title>Hypercar Trader</title>
+	
+	
+	 <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+	
+	<!-- Custom Theme files -->
+	<link href="css/style.css" rel='stylesheet' type='text/css' />
+	
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	<script src="js/jquery.min.js"></script>
+	
+	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="js/html5shiv.js"></script>
+        <script src="js/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+  <div id="wrapper">
+  
+  <h1>Land Owner Listing Form</h1>
+  
+  <h1>We will review and contact you for more information and your listing requirements</h1><p></p>
+  <p></p>
+  <h1>There is no cost to you for registration or listing your land</h1>
+  
+  <form onsubmit="return false">
+  <div class="col-2">
+    <label>
+      Name
+      <input placeholder="What is your full name?" id="name" name="name" tabindex="1">
+    </label>
+  </div>
+  <div class="col-2">
+    <label>
+      Land/Ranch name
+      <input placeholder="Is there a ranch or land name associated with your land?" id="company" name="company" tabindex="2">
+    </label>
+  </div>
+  
+  <div class="col-3">
+    <label>
+      Phone Number
+      <input placeholder="What is the best # to reach you?" id="phone" name="phone" tabindex="3">
+    </label>
+  </div>
+  <div class="col-3">
+    <label>
+      Email
+      <input placeholder="What is your e-mail address?" id="email" name="email" tabindex="4">
+    </label>
+  </div>
+  <div class="col-3">
+    <label>
+      Minimum on-site visit requirements
+      <select tabindex="5">
+        <option>1 Day Rental</option>
+        <option>Weekend Rental</option>
+        <option>1 Week+</option>
+      </select>
+    </label>
+  </div>
+  
+  <div class="col-4">
+    <label>
+      Activities
+      <input placeholder="List a of the activities allowed on the land" id="skills" name="skills" tabindex="6">
+    </label>
+  </div>
+  <div class="col-4">
+    <label>
+      Land Size Available
+      <input placeholder="How much land is available for Outdoors activities?" id="size" name="size" tabindex="7">
+    </label>
+  </div>
+  <div class="col-4">
+    <label>
+      Game available?
+      <input placeholder="Which species of game are available for hunting?" id="experience" name="experience" tabindex="7">
+    </label>
+  </div>
+  <div class="col-4 switch">
+    <label>E-mail Updates?</label>
+    <center style="position:relative;margin-bottom:8px;"><input type="checkbox" class="js-switch"></center>
+  </div>
+  
+  <div class="col-submit">
+    <button class="submitbtn">Submit Form</button>
+  </div>
+  
+  </form>
+  </div>
+<script type="text/javascript">
+var elems = Array.prototype.slice.call(document.querySelectorAll('.js-switch'));
+
+elems.forEach(function(html) {
+  var switchery = new Switchery(html);
+});
+</script>
+</body>
+</html>
